@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://kit.fontawesome.com/ba2b8f3092.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css')}}">
+    <script src="{{ url_for('static', filename= 'btn-auto.js')}}" defer></script>
+    <title>Sobre Nos</title>
+</head>
+<body>
+    <header>
+        <div class="conteiner">
+            <div class="logo"><img src="{{ url_for('static', filename= 'logo.png')}}"></div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/home">Home</a>
+                        </li>
+                        <li>
+                            <a href="/home#Promoções">Promoções</a>
+                        </li>
+                        <li class="drop_roupas">
+                            <a href="/aviso">Produtos<i class="fa-solid fa-angle-down"></i></a>
+                            <div class="roupas">
+                                <a href="/aviso">Femino</a>
+                                <a href="/aviso">Masculino</a>
+                                <a href="/aviso">Bolsas</a>
+                                <a href="/aviso">Calçados</a>
+                                <a href="/aviso">Bijuterias</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="/Sobre">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="/Informações">Informações</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="socias">
+                <button>
+                    <a href="https://www.instagram.com/__ecovibe?igsh=MWx4ZXB6eXFobmI4dg==">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </button>
+                <button><i class="fa-brands fa-whatsapp"></i></button>
+                <button>
+                    <a href="/Informações#sac">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </header>
+    <section class="conteiner_sbr">
+        <h1>Quem somos?</h1>
+        <div class="quem">
+            <p>Bem vindos ao ECOVIBE, o seu destino online para moda sustentável e acessível.
+            Estamos aqui para dar uma nova vida a roupas e acessórios, promovendo um estilo de vida mais consciente.</p>
+        </div>
+        <h1>Missão</h1>
+        <div class="mis">
+            <p>
+            Valorizar o uso das peças de roupa para diminuir o consumo de fast fashion e representar sustentabilidade
+            onde estivermos por meio de estratégias eco favoráveis.
+            </p>
+        </div>
+        <h1>Visão</h1>
+        <div class="vis">
+            <p>
+            Pretende-se, até 2029 alcançar reconhecimento na área pela comunidade e na internet.
+            </p>
+        </div>
+    </section>
+    <section class="rodape">
+        <div class="conteiner_rdp">
+            <div class="redes">
+                <button>
+                    <a href="https://www.instagram.com/__ecovibe?igsh=MWx4ZXB6eXFobmI4dg==">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </button>
+                <button>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </button>
+            </div>
+            <div class="endereço">
+                <a href="https://www.google.com/maps/place/Rua+Bar%C3%A3o+de+Antonina,+269+-+S%C3%A3o+Francisco,+Curitiba+-+PR,+80530-050/@-25.4220382,-49.2719249,17z/data=!3m1!4b1!4m6!3m5!1s0x94dce410642496a7:0x987973030ab65518!8m2!3d-25.4220382!4d-49.2719249!16s%2Fg%2F11b8v84fyg?entry=ttu">
+                    Rua Barão de Antonina, 269 - São Francisco, Curitiba - PR, 80530-050
+                </a>
+            </div>
+            <div class="contatos">
+                <h4>Telefone: (41) 94002-8922</h4>
+                <h4>|</h4>
+                <h4>Email: ecovibe@gmail.com</h4>
+            </div>
+            <h1>ECOVIBE</h1>
+
+        </div>
+    </section>
+</body>
+</html>

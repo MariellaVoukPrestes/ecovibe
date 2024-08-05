@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://kit.fontawesome.com/ba2b8f3092.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css')}}">
+    <script src="{{ url_for('static', filename= 'btn-auto.js')}}" defer></script>
+    <title>Informações</title>
+</head>
+<body>
+    <header>
+        <div class="conteiner">
+            <div class="logo"><img src="{{ url_for('static', filename= 'logo.png')}}"></div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/home">Home</a>
+                        </li>
+                        <li>
+                            <a href="/home#Promoções">Promoções</a>
+                        </li>
+                        <li class="drop_roupas">
+                            <a href="/aviso">Produtos<i class="fa-solid fa-angle-down"></i></a>
+                            <div class="roupas">
+                                <a href="/aviso">Femino</a>
+                                <a href="/aviso">Masculino</a>
+                                <a href="/aviso">Bolsas</a>
+                                <a href="/aviso">Calçados</a>
+                                <a href="/aviso">Bijuterias</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="/Sobre">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="/Informações">Informações</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="socias">
+                <button>
+                    <a href="https://www.instagram.com/__ecovibe?igsh=MWx4ZXB6eXFobmI4dg==">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </button>
+                <button><i class="fa-brands fa-whatsapp"></i></button>
+                <button>
+                    <a href="/Informações#sac">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </header>
+    <section class="info">
+        <h1>Pagamento</h1>
+        <div class="pag">
+            <p>O pagamento pode ser realizado por:</p>
+            <p>-Pix</p>
+            <p>-Cartões débito ou crédito(sem juros até 3x)</p>
+            <p>-Dinheiro(para retirada na loja física)</p>
+        </div>
+        <h1 id="sac">Sacolinha</h1>
+        <div class="sac">
+            <p>Para você economizar no frete, você terá 1 mês para garimpar as peças novas que postaremos.</p>
+            <p>Através do seu cadastro no nosso site, iremos realizar o seu garimpo na sua sacolinha.</p>
+            <p>Assim na hora do pagamento você irá economizar, com um desconto de acordo com a quantidade de peças que você escolher e apenas um frete!</p>        
+        </div>
+        <h1>Frete</h1>
+        <div class="frete">
+            <p>As entregas são viados via motoboys ou correios.</p>
+            <p>**Consultar o valor do frete pela dm</p>
+
+
+        </div>
+    </section>
+    <section class="rodape">
+        <div class="conteiner_rdp">
+            <div class="redes">
+                <button>
+                    <a href="https://www.instagram.com/__ecovibe?igsh=MWx4ZXB6eXFobmI4dg==">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </button>
+                <button>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </button>
+            </div>
+            <div class="endereço">
+                <a href="https://www.google.com/maps/place/Rua+Bar%C3%A3o+de+Antonina,+269+-+S%C3%A3o+Francisco,+Curitiba+-+PR,+80530-050/@-25.4220382,-49.2719249,17z/data=!3m1!4b1!4m6!3m5!1s0x94dce410642496a7:0x987973030ab65518!8m2!3d-25.4220382!4d-49.2719249!16s%2Fg%2F11b8v84fyg?entry=ttu">
+                    Rua Barão de Antonina, 269 - São Francisco, Curitiba - PR, 80530-050
+                </a>
+            </div>
+            <div class="contatos">
+                <h4>Telefone: (41) 94002-8922</h4>
+                <h4>|</h4>
+                <h4>Email: ecovibe@gmail.com</h4>
+            </div>
+            <h1>ECOVIBE</h1>
+
+        </div>
+    </section>
+</body>
+</html>
